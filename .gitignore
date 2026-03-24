@@ -25,7 +25,7 @@ Thumbs.db
 
 # Generated PDFs (keep samples, ignore the rest)
 *.pdf
-SAMPLE_*.pdf
+!SAMPLE_*.pdf
 
 # Playwright
 playwright-report/
