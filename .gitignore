@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+pdfenv/
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated PDFs (keep samples, ignore the rest)
+*.pdf
+SAMPLE_*.pdf
+
+# Playwright
+playwright-report/
+test-results/
+
+# Misc
+*.log
+.env

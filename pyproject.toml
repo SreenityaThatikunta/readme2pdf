@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "readme2pdf"
+version = "0.1.0"
+description = "Convert Markdown / GitHub READMEs to beautiful PDFs via headless Chromium"
+requires-python = ">=3.10"
+dependencies = [
+    "click>=8.1",
+    "markdown>=3.6",
+    "pygments>=2.17",
+    "playwright>=1.44",
+    "httpx>=0.27",
+]
+
+[project.scripts]
+readme2pdf = "readme2pdf.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
